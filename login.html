@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/index.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="./js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8087f9b85c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="login-text">
+        <div>
+          <img src="./assets/rssbLogo.png" class="login-logo" id="top-logo" />
+        </div>
+        <div>
+          <span class="login-welcome-message"
+            >Welcome to<br />
+            RSSB portal</span
+          >
+        </div>
+        <div class="social-media-icons">
+          <div class="soc-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="soc-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <div class="soc-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="soc-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="login-window">
+        <div>
+          <span class="login-txt">Login to your account</span>
+        </div>
+        <div class="login-form-tabs">
+          <div class="login-tab active-login-tab">
+            <span class="login-tab-label">Login</span>
+          </div>
+          <div class="login-tab">
+            <span class="login-tab-label">Signup</span>
+          </div>
+        </div>
+        <div class="login-form">
+          <div class="txbox-holder">
+            <div class="txtbox-icon-holder">
+              <i class="far fa-envelope txtbox-icon"></i>
+            </div>
+            <div>
+              <input type="text" class="txt-box" placeholder="Email Address" />
+            </div>
+          </div>
+          <div class="txbox-holder">
+            <div class="txtbox-icon-holder">
+              <i class="fas fa-lock txtbox-icon"></i>
+            </div>
+            <div>
+              <input type="text" class="txt-box" placeholder="Password" />
+            </div>
+          </div>
+          <div class="forgot-txt-holder">
+            <span class="forgot-txt">forgot password?</span>
+          </div>
+          <button
+            class="custom-btn custom-large-btn custom-orange-btn"
+            onclick="location.href='login.html'"
+          >
+            Login
+          </button>
+          <div class="social-auth-container">
+            <div>
+              <span class="social-auth-text">or login with</span>
+            </div>
+            <div class="social-media-icons">
+              <div class="soc-auth-icon">
+                <img src="./assets/soc-google.png" class="soc-img" />
+              </div>
+              <div class="soc-auth-icon">
+                <img src="./assets/soc-facebook.png" class="soc-img" />
+              </div>
+              <div class="soc-auth-icon">
+                <img src="./assets/soc-twitter.png" class="soc-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
