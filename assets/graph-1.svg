@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="706" height="361" viewBox="0 0 706 361">
+  <defs>
+    <filter id="Union_10" x="367.498" y="73.502" width="74" height="48.736" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.255"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Daily_Visitors" transform="translate(-519 -180)">
+    <g id="Group_2172" data-name="Group 2172" transform="translate(10 -351)">
+      <g id="lines" transform="translate(20.279 369)">
+        <line id="Line_964" data-name="Line 964" x2="644.795" transform="translate(528.5 480.5)" fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="4 6"/>
+        <line id="Line_965" data-name="Line 965" x2="644.795" transform="translate(528.5 416.5)" fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="4 6"/>
+        <line id="Line_966" data-name="Line 966" x2="644.795" transform="translate(528.5 352.5)" fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="4 6"/>
+        <line id="Line_967" data-name="Line 967" x2="644.795" transform="translate(528.5 288.5)" fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="4 6"/>
+      </g>
+      <rect id="Rectangle_1881" data-name="Rectangle 1881" width="16" height="204" rx="8" transform="translate(586 646)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1882" data-name="Rectangle 1882" width="16" height="204" rx="8" transform="translate(650 646)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1886" data-name="Rectangle 1886" width="16" height="204" rx="8" transform="translate(714 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1887" data-name="Rectangle 1887" width="16" height="204" rx="8" transform="translate(778 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1888" data-name="Rectangle 1888" width="16" height="204" rx="8" transform="translate(842 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1892" data-name="Rectangle 1892" width="16" height="204" rx="8" transform="translate(906 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1893" data-name="Rectangle 1893" width="16" height="204" rx="8" transform="translate(970 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1895" data-name="Rectangle 1895" width="16" height="204" rx="8" transform="translate(1034 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1896" data-name="Rectangle 1896" width="16" height="204" rx="8" transform="translate(1098 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1897" data-name="Rectangle 1897" width="16" height="204" rx="8" transform="translate(1162 644)" fill="#e6f3ff"/>
+      <rect id="Rectangle_1910" data-name="Rectangle 1910" width="16" height="78" rx="8" transform="translate(586 772)" fill="#003696"/>
+      <rect id="Rectangle_1885" data-name="Rectangle 1885" width="16" height="128" rx="8" transform="translate(586 663)" fill="#2c77ff"/>
+      <rect id="Rectangle_1909" data-name="Rectangle 1909" width="16" height="83" rx="8" transform="translate(650 767)" fill="#003696"/>
+      <rect id="Rectangle_1917" data-name="Rectangle 1917" width="16" height="102" rx="8" transform="translate(1162 748)" fill="#003696"/>
+      <rect id="Rectangle_1912" data-name="Rectangle 1912" width="16" height="83" rx="8" transform="translate(714 767)" fill="#003696"/>
+      <rect id="Rectangle_1913" data-name="Rectangle 1913" width="16" height="83" rx="8" transform="translate(778 767)" fill="#003696"/>
+      <rect id="Rectangle_1916" data-name="Rectangle 1916" width="16" height="83" rx="8" transform="translate(1034 767)" fill="#003696"/>
+      <rect id="Rectangle_1915" data-name="Rectangle 1915" width="16" height="83" rx="8" transform="translate(970 767)" fill="#003696"/>
+      <rect id="Rectangle_1914" data-name="Rectangle 1914" width="16" height="83" rx="8" transform="translate(906 767)" fill="#003696"/>
+      <rect id="Rectangle_1890" data-name="Rectangle 1890" width="16" height="104" rx="8" transform="translate(714 715)" fill="#2c77ff"/>
+      <rect id="Rectangle_1899" data-name="Rectangle 1899" width="16" height="132" rx="8" transform="translate(842 718)" fill="#2c77ff"/>
+      <rect id="Rectangle_1903" data-name="Rectangle 1903" width="16" height="153" rx="8" transform="translate(1098 697)" fill="#2c77ff"/>
+      <rect id="Rectangle_1904" data-name="Rectangle 1904" width="16" height="62" rx="8" transform="translate(1162 699)" fill="#2c77ff"/>
+      <rect id="Rectangle_1900" data-name="Rectangle 1900" width="16" height="166" rx="8" transform="translate(906 644)" fill="#2c77ff"/>
+      <rect id="Rectangle_1901" data-name="Rectangle 1901" width="16" height="120" rx="8" transform="translate(970 660)" fill="#2c77ff"/>
+      <rect id="Rectangle_1902" data-name="Rectangle 1902" width="16" height="146" rx="8" transform="translate(1034 657)" fill="#2c77ff"/>
+      <rect id="Rectangle_1891" data-name="Rectangle 1891" width="16" height="75" rx="8" transform="translate(778 705)" fill="#2c77ff"/>
+      <text id="_148_850" data-name="148,850" transform="translate(509 531)" fill="#63799b" font-size="48" font-family="NunitoSans-Regular, Nunito Sans"><tspan x="0" y="49">148,850</tspan></text>
+      <rect id="Rectangle_1911" data-name="Rectangle 1911" width="16" height="83" rx="8" transform="translate(650 697)" fill="#2c77ff"/>
+    </g>
+    <text id="New_users" data-name="New users" transform="translate(923 199)" fill="#63799b" font-size="16" font-family="NunitoSans-Regular, Nunito Sans"><tspan x="0" y="16">New users</tspan></text>
+    <g id="Group_2180" data-name="Group 2180" transform="translate(19 18)">
+      <text id="_0" data-name="0" transform="translate(509 469)" fill="#939393" font-size="16" font-family="NunitoSans-SemiBold, Nunito Sans" font-weight="600"><tspan x="0" y="16">0</tspan></text>
+      <text id="_2k" data-name="2k" transform="translate(504 405)" fill="#939393" font-size="16" font-family="NunitoSans-SemiBold, Nunito Sans" font-weight="600"><tspan x="0" y="16">2k</tspan></text>
+      <text id="_5k" data-name="5k" transform="translate(504 341)" fill="#939393" font-size="16" font-family="NunitoSans-SemiBold, Nunito Sans" font-weight="600"><tspan x="0" y="16">5k</tspan></text>
+      <text id="_10k" data-name="10k" transform="translate(500 277)" fill="#939393" font-size="16" font-family="NunitoSans-SemiBold, Nunito Sans" font-weight="600"><tspan x="0" y="16">10k</tspan></text>
+    </g>
+    <text id="Existing_Costumers" data-name="Existing Costumers" transform="translate(1047 199)" fill="#63799b" font-size="16" font-family="NunitoSans-Regular, Nunito Sans"><tspan x="0" y="16">Existing Costumers</tspan></text>
+    <text id="Apr_01" data-name="Apr 01" transform="translate(586 516)" fill="#939393" font-size="16" font-family="NunitoSans-SemiBold, Nunito Sans" font-weight="600"><tspan x="0" y="16">Apr 01</tspan></text>
+    <circle id="Ellipse_1400" data-name="Ellipse 1400" cx="6" cy="6" r="6" transform="translate(1027 203)" fill="#003696"/>
+    <circle id="Ellipse_1401" data-name="Ellipse 1401" cx="6" cy="6" r="6" transform="translate(903 203)" fill="#2c77ff"/>
+    <text id="_148_850-2" data-name="148,850" transform="translate(519 180)" fill="#63799b" font-size="48" font-family="NunitoSans-Regular, Nunito Sans"><tspan x="0" y="49">148,850</tspan></text>
+    <text id="Weekly_Visitors" data-name="Weekly Visitors" transform="translate(524 240)" fill="#63799b" font-size="18" font-family="NunitoSans-Regular, Nunito Sans"><tspan x="0" y="18">Weekly Visitors</tspan></text>
+    <g id="value" transform="translate(-9 -14)">
+      <g transform="matrix(1, 0, 0, 1, 528, 194)" filter="url(#Union_10)">
+        <path id="Union_10-2" data-name="Union 10" d="M-18476.611-3330.468l-9.789-7.53h-16.6a6,6,0,0,1-6-6v-20a6,6,0,0,1,6-6h53a6,6,0,0,1,6,6v20a6,6,0,0,1-6,6h-15.6l-9.789,7.53a1.012,1.012,0,0,1-.611.206A1.012,1.012,0,0,1-18476.611-3330.468Z" transform="translate(18881 3447)" fill="#fff"/>
+      </g>
+      <text id="_3483" data-name="3483" transform="translate(912 278)" fill="#63799b" font-size="16" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="0" y="16">3483</tspan></text>
+    </g>
+  </g>
+</svg>
