@@ -17,7 +17,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
     <script
       src="https://kit.fontawesome.com/8087f9b85c.js"
       crossorigin="anonymous"
@@ -51,6 +51,15 @@
         </div>
       </div>
       <div class="login-window">
+        <div class="error-message-container" id="errors-box">
+          <div class="d-flex">
+            <div><i class="far fa-times-circle error-icon"></i></div>
+            <div><span class="error-title">Error</span></div>
+          </div>
+          <div>
+            <span class="error-label">Errors may be displayed here</span>
+          </div>
+        </div>
         <div>
           <span class="login-txt">Login to your account</span>
         </div>
@@ -76,15 +85,16 @@
               <i class="fas fa-lock txtbox-icon"></i>
             </div>
             <div>
-              <input type="text" class="txt-box" placeholder="Password" />
+              <input type="text" class="txt-box custom-pwd" placeholder="Password" />
             </div>
+            <i class="far fa-eye-slash txtbox-icon"></i>
           </div>
           <div class="forgot-txt-holder">
             <span class="forgot-txt">forgot password?</span>
           </div>
           <button
             class="custom-btn custom-large-btn custom-orange-btn"
-            onclick="location.href='login.html'"
+            onclick="location.href='dashboard.html'"
           >
             Login
           </button>

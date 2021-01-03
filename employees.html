@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/dashboard.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="./js/dashboard.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8087f9b85c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="dashboard-wrapper">
+      <div class="side-panel-wrapper">
+        <div class="logo-container" onclick="location.href='index.html'">
+          <img src="./assets/dashboard-logo.png" class="dashboard-logo" />
+        </div>
+        <div class="menu-wrapper">
+          <div class="dash-menu-item" onclick="location.href='dashboard.html'">
+            <i class="fas fa-sliders-h"></i>
+            <span class="dash-menu-label">Dashboard</span>
+          </div>
+          <div
+            class="dash-menu-item active-menu-item"
+            onclick="location.href='employees.html'"
+          >
+            <i class="fas fa-users"></i>
+            <span class="dash-menu-label">Employees</span>
+          </div>
+          <div class="dash-menu-item">
+            <i class="fas fa-layer-group"></i>
+            <span class="dash-menu-label">Lorem Ipsum</span>
+          </div>
+          <div class="dash-menu-item">
+            <i class="fas fa-layer-group"></i>
+            <span class="dash-menu-label">Lorem Ipsum</span>
+          </div>
+          <div class="dash-menu-item">
+            <i class="fas fa-layer-group"></i>
+            <span class="dash-menu-label">Lorem Ipsum</span>
+          </div>
+          <div class="dash-menu-item">
+            <i class="fas fa-layer-group"></i>
+            <span class="dash-menu-label">Lorem Ipsum</span>
+          </div>
+        </div>
+        <div class="bottom-menu-container">
+          <div class="dash-menu-item-logout">
+            <i class="fas fa-sign-out-alt signout-icon"></i>
+            <span class="dash-menu-label">Logout</span>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-content-container">
+        <div class="dash-header">
+          <div class="search-container">
+            <input type="text" class="search-txt-box" placeholder="Search" />
+            <i class="fas fa-search search-icon-dash"></i>
+          </div>
+          <div>
+            <span id="date-day" class="date-day"></span
+            ><span id="date-time" class="date-time"></span>
+          </div>
+        </div>
+        <div class="employees-wrapper">
+          <div class="employee-header">
+            <div class="employee-header-row">
+              <div><span class="header-title">Employees</span></div>
+              <div class="employee-search-container">
+                <i class="fas fa-search search-icon"></i>
+                <span>Search by name</span>
+              </div>
+            </div>
+            <div class="employee-header-row">
+              <div class="employee-tabs">
+                <div class="employee-tab selected-tab">
+                  <span>All</span>
+                </div>
+                <div class="employee-tab">
+                  <span>Organization</span>
+                </div>
+              </div>
+            </div>
+            <div class="employee-header-row">
+              <div class="sorting-bar-container">
+                <div class="left-sorting-bar-container">
+                  <div class="single-sorting-container selected-sort">
+                    <!-- <span class="sorting-label">Position</span>
+                    <img src="./assets/carret.png" class="filter-icon" /> -->
+                    <select class="dash-select sorting-label">
+                      <option value="0">Position</option>
+                      <option value="1">Lorem Ipsum</option>
+                      <option value="2">Lorem Ipsum</option>
+                      <option value="3">Lorem Ipsum</option>
+                      <option value="4">Lorem Ipsum</option>
+                      <option value="5">Lorem Ipsum</option>
+                    </select>
+                  </div>
+                  <div class="single-sorting-container">
+                    <!-- <span class="sorting-label">Age</span>
+                    <img src="./assets/carret.png" class="filter-icon" /> -->
+                    <select class="dash-select sorting-label">
+                      <option value="0">Age</option>
+                      <option value="1">Lorem Ipsum</option>
+                      <option value="2">Lorem Ipsum</option>
+                      <option value="3">Lorem Ipsum</option>
+                      <option value="4">Lorem Ipsum</option>
+                      <option value="5">Lorem Ipsum</option>
+                    </select>
+                  </div>
+                  <div class="single-sorting-container">
+                    <!-- <span class="sorting-label">More</span>
+                    <img
+                      src="./assets/filter.png"
+                      class="another-filter-icon"
+                    /> -->
+                    <select class="dash-select sorting-label">
+                      <option value="0">More</option>
+                      <option value="1">Lorem Ipsum</option>
+                      <option value="2">Lorem Ipsum</option>
+                      <option value="3">Lorem Ipsum</option>
+                      <option value="4">Lorem Ipsum</option>
+                      <option value="5">Lorem Ipsum</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="right-sorting-bar-container">
+                  <div>
+                    <span class="sort-by-label">Sort by:</span>
+                  </div>
+                  <div>
+                    <select
+                      class="dash-select sorting-label custom-dash-select"
+                    >
+                      <option value="0">All</option>
+                      <option value="1">Lorem Ipsum</option>
+                      <option value="2">Lorem Ipsum</option>
+                      <option value="3">Lorem Ipsum</option>
+                      <option value="4">Lorem Ipsum</option>
+                      <option value="5">Lorem Ipsum</option>
+                    </select>
+                  </div>
+                  <div class="employee-switch-container">
+                    <div
+                      class="single-switch active-switch"
+                      id="switch-1"
+                      onclick="switchTo('switch-1','switch-2')"
+                    >
+                      <img src="./assets/switch-1.png" class="switch-icon" />
+                    </div>
+                    <div
+                      class="single-switch"
+                      id="switch-2"
+                      onclick="switchTo('switch-2','switch-1')"
+                    >
+                      <img src="./assets/switch-2.png" class="switch-icon" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="employee-body">
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile-1.jpg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">John Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile-2.jpeg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">Jane Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile-3.jpeg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">Jack Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile-4.jpeg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">John Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile.jpg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">Jane Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+            <div class="employee-card">
+              <div class="three-dots-container custom-padding">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <div class="employee-info-wrapper custom-padding">
+                <div>
+                  <img src="./assets/profile-1.jpg" class="employee-img" />
+                </div>
+                <div>
+                  <span class="employee-name">John Doe</span>
+                </div>
+                <div>
+                  <span class="employee-email"
+                    >rugumbirajordybastien@gmail.com</span
+                  >
+                </div>
+                <div>
+                  <span class="employee-phone">+250785634779</span>
+                </div>
+              </div>
+              <div class="employee-post-wrapper custom-padding">
+                <span class="employee-post-label">director general</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="user-side-panel-wrapper">
+        <div class="three-dots-container">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+        <div class="user-panel">
+          <div class="notif-icon-container">
+            <div class="w3-dropdown-hover">
+              <div class="w3-button custom-w3-btn">
+                <img src="./assets/message.png" class="notif-icon" />
+              </div>
+              <div class="w3-dropdown-content w3-bar-block custom-notif-container">
+                <div class="notification-box">
+                  <div class="notification-box-header">
+                    <div>
+                      <span class="notification-header-label">Messages</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-1.jpg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">John Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 hour ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-2.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jane Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">2 hours ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-3.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jack Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 week ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-4.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jane Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 month ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-info-container">
+            <div><img src="./assets/profile.jpg" class="profile-img" /></div>
+            <div><span class="user-name-label">John Doe</span></div>
+          </div>
+          <div class="notif-icon-container">
+            <div class="w3-dropdown-hover">
+              <div class="w3-button custom-w3-btn">
+                <img src="./assets/notification.png" class="notif-icon" />
+              </div>
+              <div class="w3-dropdown-content w3-bar-block custom-notif-container">
+                <div class="notification-box">
+                  <div class="notification-box-header">
+                    <div>
+                      <span class="notification-header-label">Notifications</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-1.jpg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">John Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 hour ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-2.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jane Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">2 hours ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-3.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jack Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 week ago</span>
+                    </div>
+                  </div>
+                  <div class="single-notification-container">
+                    <div class="user-part-notification-container">
+                      <img
+                        src="./assets/profile-4.jpeg"
+                        class="user-notif-img"
+                      />
+                      <div>
+                        <span class="notification-user-label">Jane Doe</span>
+                      </div>
+                    </div>
+                    <div class="notif-time-container">
+                      <i class="far fa-clock notif-time-icon"></i>
+                      <span class="notification-time-label">1 month ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notification-box">
+          <div class="notification-box-header">
+            <div><span class="notification-header-label">To review</span></div>
+            <div>
+              <i class="far fa-question-circle question-icon"></i>
+            </div>
+          </div>
+          <div class="single-notification-container">
+            <div class="user-part-notification-container">
+              <img src="./assets/profile-1.jpg" class="user-notif-img" />
+              <div><span class="notification-user-label">John Doe</span></div>
+            </div>
+            <div class="notif-time-container">
+              <i class="far fa-clock notif-time-icon"></i>
+              <span class="notification-time-label">1 hour ago</span>
+            </div>
+          </div>
+          <div class="single-notification-container">
+            <div class="user-part-notification-container">
+              <img src="./assets/profile-2.jpeg" class="user-notif-img" />
+              <div><span class="notification-user-label">Jane Doe</span></div>
+            </div>
+            <div class="notif-time-container">
+              <i class="far fa-clock notif-time-icon"></i>
+              <span class="notification-time-label">2 hours ago</span>
+            </div>
+          </div>
+          <div class="single-notification-container">
+            <div class="user-part-notification-container">
+              <img src="./assets/profile-3.jpeg" class="user-notif-img" />
+              <div><span class="notification-user-label">Jack Doe</span></div>
+            </div>
+            <div class="notif-time-container">
+              <i class="far fa-clock notif-time-icon"></i>
+              <span class="notification-time-label">1 week ago</span>
+            </div>
+          </div>
+          <div class="single-notification-container">
+            <div class="user-part-notification-container">
+              <img src="./assets/profile-4.jpeg" class="user-notif-img" />
+              <div><span class="notification-user-label">Jane Doe</span></div>
+            </div>
+            <div class="notif-time-container">
+              <i class="far fa-clock notif-time-icon"></i>
+              <span class="notification-time-label">1 month ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
